@@ -1,0 +1,15 @@
+.title__cover {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 40vh;
+}
+
+.title__cover > h4 {
+	font-weight: 200;
+}
+
+.title__cover > img {
+	width: 10rem;
+}

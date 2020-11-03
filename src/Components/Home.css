@@ -1,0 +1,36 @@
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home__cover {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+.home__cover > img {
+	width: 10rem;
+}
+
+.home__text {
+	border: 1px solid black;
+	padding: 5px 10px 5px 5px;
+	margin: 30px;
+}
+
+.home__text > p {
+	font-weight: 400;
+}
+
+/* .home__text > p {
+	margin-left: 20px;
+} */
+
+.home__textCenter {
+	text-align: center;
+	font-style: italic;
+}
