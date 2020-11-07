@@ -1,7 +1,7 @@
 .classinfo {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center; */
+	/* align-items: center; */
 	flex-direction: column;
 }
 
@@ -15,10 +15,36 @@
 .classinfo__block {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
-	text-align: left;
+	justify-content: center;
+	/* align-items: center; */
 	width: 80%;
 	margin: 15px;
 	border-top: 2px solid rgb(200, 200, 200);
+}
+
+.classinfo__block > h4 {
+	font-weight: 600;
+}
+
+.classinfo__block > p {
+	margin-block-start: 0.1em;
+	margin-block-end: 0.2em;
+	margin-inline-start: 1em;
+}
+
+.classinfo__block > Button {
+	align-self: center;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+.classinfo__block > Button:hover {
+	background-color: black;
+	color: white;
+}
+
+.classinfo__italic {
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
 }

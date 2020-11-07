@@ -1,12 +1,49 @@
-.lessons {
+.classinfo {
 	display: flex;
+	/* justify-content: center; */
+	/* align-items: center; */
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 }
 
 .lessons__text {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.lessons__block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	width: 80%;
+	margin: 15px;
+	border-top: 2px solid rgb(200, 200, 200);
+}
+
+.lessons__block > h4 {
+	font-weight: 600;
+}
+
+.lessons__block > p {
+	margin-block-start: 1em;
+	margin-block-end: 0.5em;
+	margin-inline-start: 1em;
+}
+
+.lessons__block > Button {
+	align-self: center;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.lessons__block > Button:hover {
+	background-color: black;
+	color: white;
+}
+
+.lessons__italic {
+	font-style: italic;
+	font-weight: 300;
 }

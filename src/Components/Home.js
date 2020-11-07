@@ -1,17 +1,19 @@
 import React from "react";
 import "./Home.css";
 import Button from "@material-ui/core/Button";
+import Title from "./Title";
 
 function Home() {
 	return (
 		<div className="home">
-			<div className="home__cover">
+			{/* <div className="home__cover">
 				<img
 					className="home__image"
 					src="https://static.wixstatic.com/media/73bef0_ee6f181bf44c4eac95902bcdd3be48e4~mv2.jpg/v1/fill/w_212,h_210,al_c,q_80,usm_0.66_1.00_0.01/Transparent%20white.webp"
 					alt="Not found"
 				/>
-			</div>
+			</div> */}
+			<Title />
 
 			<Button variant="outlined">Click here to sign up for a class</Button>
 
