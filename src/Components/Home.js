@@ -18,7 +18,9 @@ function Home() {
 			<Button variant="outlined">Click here to sign up for a class</Button>
 
 			<div className="home__text">
-				<p>1. Click above button register. Class registration will begin 72 hours before each class.</p>
+				<p>
+					1. Click above button register. Class registration will begin <b>72</b> hours before each class.
+				</p>
 				<p>2. Send $18 payment via e-transfer to yunik.dance@gmail.com</p>
 				<p>
 					<bold>·</bold> You will receive a confirmation email after payment is received.
@@ -26,7 +28,10 @@ function Home() {
 				<p className="home__textCenter">If the class is full, you will be directed to a saitlist form to fill out.</p>
 			</div>
 
-			<div className="home__upcoming">upcoming classes</div>
+			<div className="home__upcoming">Upcoming classes</div>
+			<p>·</p>
+			<p>·</p>
+			<p>·</p>
 			{/* Align list items */}
 		</div>
 	);

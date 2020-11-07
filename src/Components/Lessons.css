@@ -19,11 +19,14 @@
 	/* align-items: center; */
 	width: 80%;
 	margin: 15px;
-	border-top: 2px solid rgb(200, 200, 200);
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-top: 2px solid rgb(220, 220, 220);
 }
 
 .lessons__block > h4 {
 	font-weight: 600;
+	margin-top: 10px;
 }
 
 .lessons__block > p {
@@ -36,6 +39,7 @@
 	align-self: center;
 	border-radius: 20px;
 	margin-top: 20px;
+	border-color: black;
 }
 
 .lessons__block > Button:hover {
