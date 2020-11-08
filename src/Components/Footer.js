@@ -6,7 +6,7 @@ import Button from "@material-ui/core/Button";
 function Footer() {
 	return (
 		<div className="footer">
-			<a className="footer__link" target="_blank" href="https://www.instagram.com/project_yunik/">
+			<a className="footer__link" target="_blank" rel="noreferrer" href="https://www.instagram.com/yunikdance/">
 				<Button>
 					<h4>Yunik⠀·</h4>
 					<p>⠀Vancouver⠀</p>

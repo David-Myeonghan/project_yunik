@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import Classinfo from "./Components/Classinfo";
 import Lessons from "./Components/Lessons";
+import Covid19 from "./Components/Covid19";
 
 function App() {
 	return (
@@ -15,7 +16,7 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route exact path="/classinfo" component={Classinfo} />
 					<Route exact path="/private-lessons" component={Lessons} />
-					<Route exact path="/covid-19-policies"></Route>
+					<Route exact path="/covid-19-policies" component={Covid19}></Route>
 					<Route exact path="/faqs"></Route>
 					<Route exact path="/contact"></Route>
 				</Switch>
